@@ -1,2 +1,37 @@
-gems:
-  - jekyll-redirect-from
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: PyZH Talks
+author: Zurich Python User Group
+description: >- # this means to ignore newlines until "baseurl:"
+  Slides and materials from talks in the Zurich Python User Group
+baseurl: "/pyzurich"
+# use empty subpath to test locally
+# baseurl: "" 
+url: ""
+meetup_username: pyzurich
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

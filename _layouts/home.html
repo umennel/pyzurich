@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <ul class="post-list">
+    {%- for talk in site.data.talks -%}
+    <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <span class="post-meta">{{ talk.date | date: date_format }}</span>
+    <h3>
+        <a class="post-links" href="{{ talk.slides }}">
+        {{ talk.title | escape }}
+        </a>
+        <div class="post-author">- by {{ talk.author }}</div>
+    </h3>
+    <ul class="post-meta-list">
+    {%- if talk.examples -%}
+    <li><a href="{{ talk.examples }}">examples</a></li>
+    {%- endif -%}
+    {%- if talk.code -%}
+    <li><a href="{{ talk.code }}">code</a></li>
+    {%- endif -%}
+    {%- if talk.blog -%}
+    <li><a href="{{ talk.blog }}">blog</a></li>
+    {%- endif -%}
+    </ul>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  <!-- <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
+
+</div>

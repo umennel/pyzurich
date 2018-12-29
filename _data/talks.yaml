@@ -1,0 +1,99 @@
+- title: Benchmarking with pytest-benchmark
+  date: 2017-07-06
+  author: Martin Geisler
+  slides: talks/2017-07-06-pytest-benchmark/
+  code: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2017-07-06-pytest-benchmark/
+
+- title: Extending Python with Rust
+  date: 2017-04-06
+  author: Martin Geisler
+  slides: talks/2017-04-06-rust/
+  examples: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2017-04-06-rust/
+
+- title: Writing command-line programs in Python
+  date: 2017-03-02
+  author: Stefano Taschini
+  slides: talks/2017-03-02-cli/
+  examples: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2017-03-02-cli/examples/
+
+- title: Asynchronous I/O
+  date: 2016-12-08
+  author: Martin Geisler
+  slides: talks/2016-12-08-asyncio/
+
+- title: Switch to Python 3 Today!
+  author: Martin Geisler
+  date: 2016-04-07
+  slides: talks/2016-04-07-switch-to-python-3/
+
+- title: GNU Radio – Introduction to DSP
+  date: 2016-03-08
+  author: Leszek Jakubowski
+  slides: talks/2016-03-08-gnuradio/
+  examples: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2016-03-08-gnuradio/pres.odp
+
+- title: Morepath!
+  date: 2016-03-03
+  author: Denis Krienbühl
+  slides: talks/2016-03-03-morepath-introduction/morepath-introduction-at-pyzurich.pdf
+
+- title: Introduction to Regular Expressions
+  author: Dariusz Smigiel
+  date: 2015-12-10
+  slides: talks/2015-12-10-introduction-to-re/python_re.pdf
+
+- title: Controlling Hardware with Python
+  date: 2015-10-29
+  author: Danilo Bargen
+  slides: talks/2015-10-29-hardware-with-python/slides.pdf
+  code: https://github.com/dbrgn/RPLCD
+  blog: https://blog.dbrgn.ch/2014/4/20/scrolling-text-with-rplcd/
+
+- title: Making Robots Walk with Python
+  author: Radomir Dopieralski
+  date: 2015-06-18
+  slides: talks/2015-06-18-robots/
+
+- title: PyParsing
+  author: Martin Geisler
+  date: 2015-05-12
+  slides: talks/2015-05-12-pyparsing/PyParsing.ipynb
+  examples: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2015-05-12-pyparsing/
+
+- title: Python with Pandas
+  author: Oleg Lavrovsky
+  date: 2014-09-14
+  slides: talks/2014-09-14-pandas/
+
+- title: 'SQLAlchemy: Python SQL Toolkit and Object Relational Mapper'
+  author: Martin Geisler
+  date: 2014-04-03
+  slides: talks/2014-04-03-sqlalchemy/pyzh-sqlalchemy.pdf
+  examples: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2014-04-03-sqlalchemy/
+
+- title: Twisted is an Event-Driven Network Programming Framework
+  author: Pascal Bach
+  date: 2014-02-06
+  slides: talks/2014-02-06-twisted/Twisted_Presentation_2014-02-06-final.pdf
+  examples: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2014-02-06-twisted/examples/
+
+- title: Flask Web Framework
+  author: Oleg Lavrovsky
+  date: 2014-01-09
+  slides: https://docs.google.com/presentation/d/1Y3dEvUg3VZ-ktPGH0aTk3cMWDPDxHFEJi_QAzgHK9ew/edit?usp=sharing
+
+- title: The Pyramid Web Application Development Framework
+  author: Martin Geisler
+  date: 2013-07-04
+  slides: talks/2013-07-04-pyramid-web-framework/pyzh-pyramid.pdf
+
+- title: 'BuildBot: Continuous Integration, the Python Way'
+  author: Martin Geisler
+  date: 2013-04-11
+  slides: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2013-04-11-buildbot/buildbot.rst
+  code: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2013-04-11-buildbot/minimal.cfg
+
+- title: Experiences with using Python in Mercurial
+  author: Martin Geisler
+  date: 2010-11-16
+  slides: talks/2010-11-16-mercurial/python-hg-talk.pdf
