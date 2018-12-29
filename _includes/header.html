@@ -1,9 +1,8 @@
 <header class="site-header">
-
-        <div class="wrapper">
-          <div class="site-title">{{ site.title | escape }}</div>
-          <div id="pyzurich-logo">
-                <img height="68" src="assets/pyzh.svg"/>
-          </div>
-        </div>
-      </header>
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div id="pyzurich-logo">
+      <img height="68" src="{{ site.baseurl }}/assets/pyzh.svg"/>
+    </div>
+  </div>
+</header>

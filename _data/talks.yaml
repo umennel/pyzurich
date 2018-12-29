@@ -35,8 +35,8 @@
 - title: GNU Radio – Introduction to DSP
   date: 2016-03-08
   author: Leszek Jakubowski
-  slides: talks/2016-03-08-gnuradio/
-  examples: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2016-03-08-gnuradio/pres.odp
+  slides: talks/2016-03-08-gnuradio/pres.odp
+  examples: talks/2016-03-08-gnuradio/
 
 - title: Morepath!
   date: 2016-03-03
@@ -69,7 +69,7 @@
 - title: Python with Pandas
   author: Oleg Lavrovsky
   date: 2014-09-14
-  slides: talks/2014-09-14-pandas/
+  slides: talks/2014-09-14-pandas/Hello%20Pandas.html
 
 - title: 'SQLAlchemy: Python SQL Toolkit and Object Relational Mapper'
   author: Martin Geisler

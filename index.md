@@ -5,5 +5,5 @@
 layout: home
 ---
 
-Please submit pull requests if you have made a talk that is not yet on
+Please submit pull requests or contact us if you have made a talk that is not yet on
 the list!
