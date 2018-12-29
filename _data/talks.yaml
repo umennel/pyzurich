@@ -4,6 +4,12 @@
   slides: talks/2017-07-06-pytest-benchmark/
   code: https://github.com/mgeisler/pyzurich/tree/gh-pages/talks/2017-07-06-pytest-benchmark/
 
+- title: Deploying Python Applications with cx_Freeze
+  date: 2017-05-04
+  author: Uche Mennel
+  slides: talks/2017-05-04-cx_Freeze
+  examples: https://github.com/umennel/pyzurich/tree/gh-pages/talks/2017-05-04-cx_Freeze/examples/
+
 - title: Extending Python with Rust
   date: 2017-04-06
   author: Martin Geisler
@@ -81,6 +87,12 @@
   author: Oleg Lavrovsky
   date: 2014-01-09
   slides: https://docs.google.com/presentation/d/1Y3dEvUg3VZ-ktPGH0aTk3cMWDPDxHFEJi_QAzgHK9ew/edit?usp=sharing
+
+- title: Creating GUIs with wxPython
+  author: Uche Mennel
+  date: 2013-09-05
+  slides: talks/2013-09-05-wxpython/wxPython.pdf
+  examples: https://github.com/umennel/pyzurich/tree/gh-pages/talks/2013-09-05-wxpython
 
 - title: The Pyramid Web Application Development Framework
   author: Martin Geisler
