@@ -7,16 +7,17 @@
 #pyzurich-logo {
   position:absolute;
   margin-top: -5px;
-  margin-right: 15px;
-  margin-bottom: -1px;
-  /* margin-left: -155px; */
   float:left;
+  background-color: #FFF;
+  
+  img {
+    margin: 5px 12px 0 12px;
+  }
 }
 
 .site-header {
-  border-top: 5px solid #326496;
+  border-top: 5px solid #FFF;
   background-color: #326496;
-  
 }
 
 .site-title {
