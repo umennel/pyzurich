@@ -17,6 +17,7 @@ baseurl: "/pyzurich"
 # use empty subpath to test locally
 # baseurl: "" 
 url: ""
+github_username: pyzurich
 meetup_username: pyzurich
 
 # Build settings
